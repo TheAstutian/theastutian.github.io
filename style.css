@@ -1,0 +1,250 @@
+/*
+ * Globals
+ */
+body {
+  background: #111;
+}
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #ccc;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+
+}
+.container-fluid1 {
+    height: 100%;
+    min-height: 100%;
+  
+  }
+
+.container-fluid1{
+  background: url(lead0.jpg) no-repeat fixed;
+
+}
+/* Padding for spacing */
+.navbar navbar-default {
+  /*background: transparent;*/
+}
+ 
+ #heading{
+ font-family: 'Gabriela', serif;
+
+
+ }
+
+
+#bs-example-navbar-collapse-1 {
+  float: right;
+  padding-top: 80px;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+/*
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 15px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: transparent; /* IE8 proofing *
+  color: rgba(255,255,255,.75);*
+  border-bottom: 2px solid transparent;
+}*/
+ #navi li a:hover {
+  background-color: transparent;
+    border-radius: 5px;
+    border: 3px solid #fff;
+    color: #333;
+}
+
+
+/*
+ * Cover
+ */
+.cover{
+  display: center;
+  text-align: center;
+  padding-top: 150px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.cover p{
+  color: #2199fe;
+}
+.cover .cover-heading{
+  color: #fff;
+}
+.cover .btn-lg {
+  font-weight: bold;
+  border-radius: 0px;
+}
+.inner h1{
+  font-size: 50px;
+  font-family: 'Gabriela', serif;
+}
+
+.inner p{
+  
+  font-size: 22px;
+
+}
+
+/*
+ * Footer
+ */
+.the-footer {
+  /* Set the fixed height of the footer here */
+  background-color: #222;
+  
+  min-height: 100px;
+}
+.pull-right{
+ 
+  padding-right: 2%;
+}
+.pull-left{
+  padding-left: 2%;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+
+/*
+ * Affix and center
+ */
+
+/*@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  /*.masthead {
+    position: fixed;
+    top: 0;
+  }
+
+  /* Start the vertical centering */
+  /*.site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  /*.masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment
+  }
+}*/
+
+@media (min-width: 1024px) {
+  .masthead-brand {
+  padding-top: 0px;
+    margin-left: 100px;
+    margin-top: 80px;
+  float: left;
+}
+
+#heading{
+  font-size: 40px;
+}
+  }
+
+  @media (min-width: 992px) and (max-width: 1024px) {
+  .masthead-brand {
+  padding-top: 0px; 
+  margin-bottom: 10px;
+  padding-left: 50px;
+
+}
+
+#heading{
+  font-size: 40px;
+}
+
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+  .masthead-brand {
+ padding-top: 70px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+
+}
+
+#heading{
+  font-size: 25px;
+}
+
+    .cover{
+  padding-top: 50px;
+  margin-top: 50px;
+  padding-bottom: 350px;
+}
+  }
+
+  @media (min-width: 413px) and (max-width: 767px) {
+  .masthead-brand {
+ 
+  padding-top: 10px;
+  margin-left: 50px;
+
+}
+
+#heading{
+  font-size: 38px;
+}
+
+    .cover{
+  padding-top: 70px;
+  margin-top: 70px;
+  padding-bottom: 350px;
+}
+  }
+
+   @media (max-width: 412px){
+
+    .masthead-brand{
+      padding-top: 10px;
+      margin-left: 20px;
+    }
+
+    .cover{
+  padding-top: 50px;
+  margin-top: 50px;
+  padding-bottom: 350px;
+}
+
+}
+   }
